@@ -1,0 +1,18 @@
+# --- SQL e Tratamento de Dados ---
+oracledb                # Ligação à base de dados Oracle
+pandas                  # Manipulação de dados em memória
+tqdm                    # Barras de progresso visuais para as migrações
+
+# --- Bases de Dados NoSQL ---
+pymongo                 # Ligação ao MongoDB (Documentos)
+neo4j                   # Ligação ao Neo4j (Grafos)
+
+# --- Inteligência e Vetores ---
+qdrant-client           # Ligação à base de dados Qdrant
+sentence-transformers   # Modelo local para criar os embeddings textuais
+
+# --- Cache e Memória ---
+redis                   # Ligação ao Redis (Rankings e cache)
+
+# --- Utilitários ---
+python-dotenv           # Leitura segura de passwords através do ficheiro .env
